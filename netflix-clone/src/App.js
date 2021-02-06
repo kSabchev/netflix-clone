@@ -44,6 +44,10 @@ function App() {
             </Route>
           </Switch>
         )}
+        <Route path="/demo">
+          <HomeScreen />
+        </Route>
+        
       </Router>
     </div>
   )

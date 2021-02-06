@@ -22,6 +22,7 @@ function ProfileScreen() {
           <div className="profileScreen__details">
             <h2>{user.email}</h2>
             <div className="profileScreen__plans">
+              <h2> Plans </h2>
               <PlansScreen />
               <button
                 onClick={() => auth.signOut()}
@@ -32,6 +33,10 @@ function ProfileScreen() {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="profileScreen__hint">
+        This is a demo. Use card 4242 4242 4242 4242, MM/YY:04/24, CVC:424
       </div>
     </div>
   );
