@@ -20,5 +20,5 @@
 }
 
 .plansScreen__plan--disabled > button {
-    background-color: gray !important;
+  background-color: gray !important;
 }

@@ -45,6 +45,12 @@ function LoginScreen() {
             </div>
           </>
         )}
+
+        <div className="loginScreen__hint">
+          <p>This is a demo app</p>
+          <p>implementing Stripe payment.</p>
+          <p>Try it out.</p>
+        </div>
       </div>
     </div>
   );

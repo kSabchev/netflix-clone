@@ -91,3 +91,10 @@
 .loginScreen__input{
     margin: 20px;
 }
+
+.loginScreen__hint {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+}
